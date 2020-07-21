@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title":"Ingredient",
+    "type":"object",
+    "properties":{
+        "name":             {"type":"string"},
+        "unit of measure":  {"type":"string"},
+        "quantity":         {"type":"integer"},
+        "ranking":          {"type":"integer"},
+        "useByDate":        {"type":"string"}
+    },
+    "required":["name"]
+}
+
+/*
+{
+    '$schema': 'http://json-schema.org/draft-04/schema#',
+    'title':'Ingredient',
+    'type':'object',
+    'properties':{
+        'name':             {'type':'string'},
+        'unit of measure':  {'type':'string'},
+        'quantity':         {'type':'integer'},
+        'ranking':          {'type':'integer'},
+        'useByDate':        {'type':'string'}
+    },
+    'required':['name']
+}
+*/
