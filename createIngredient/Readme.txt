@@ -4,18 +4,9 @@ The ingredient can be created directly and indirectly.
 Necessarily must protect this data.
 Provide a central repository - ingredient master.
 {
-- name:
-- food
-- drink
-- vegetable
-- meat
-- fruit
-- starch
-- protein
-- flavoring
-- spice
-- thickener
-- dairy free
-- gluten free
-- nut free
+  name:'specific identifier',
+  type:['meat','vegetable', 'bread', 'drink', 'fruit', 'spice'],
+  color:['red', 'white', 'green', 'rose', 'orange', 'yellow', 'black', 'other'],
+  gluten:['yes', 'no'],
+  dairy:['yes', 'no']
 }
