@@ -1,0 +1,7 @@
+ingredient = {
+    "name": "carrots",
+    "type": "vegetable",
+    "color": "orange",
+    "gluten": "no",
+    "dairy": "no"
+}

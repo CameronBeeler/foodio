@@ -1,3 +1,7 @@
+const AWS = require('aws-sdk');
+const dynamodb = AWS.DynamoDB(region:'us-west-2', apiVersion:'2012-08-10');
+const table = 'Ingredients';
+
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const xhr = new XMLHttpRequest(),
     method = "POST",
